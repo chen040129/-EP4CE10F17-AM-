@@ -1,5 +1,5 @@
 EDA Netlist Writer report for AM
-Sat May 04 14:16:41 2024
+Wed May 08 21:34:38 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
 
 
@@ -34,7 +34,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                    ;
 +---------------------------+-----------------------------------+
-; EDA Netlist Writer Status ; Failed - Sat May 04 14:16:41 2024 ;
+; EDA Netlist Writer Status ; Failed - Wed May 08 21:34:38 2024 ;
 ; Revision Name             ; AM                                ;
 ; Top-level Entity Name     ; AM                                ;
 ; Family                    ; Cyclone IV E                      ;
@@ -60,14 +60,17 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sat May 04 14:16:41 2024
+    Info: Processing started: Wed May 08 21:34:37 2024
 Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off AM -c AM --vector_source=E:/FPGA_FILE/AM/output_files/Waveform.vwf --testbench_file=E:/FPGA_FILE/AM/simulation/qsim/output_files/Waveform.vwf.vt
+Warning (20013): Ignored 19 assignments for entity "AM_NCO" -- entity does not exist in design
+Warning (20013): Ignored 13 assignments for entity "FIR" -- entity does not exist in design
+Warning (20013): Ignored 71 assignments for entity "FIR_0002" -- entity does not exist in design
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Error (199013): HDL output file name "E:/FPGA_FILE/AM/simulation/qsim/output_files/Waveform.vwf.vt" used with --testbench_file option contains a non-existent directory path
-Error: Quartus Prime EDA Netlist Writer was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 4635 megabytes
-    Error: Processing ended: Sat May 04 14:16:41 2024
-    Error: Elapsed time: 00:00:00
+Error: Quartus Prime EDA Netlist Writer was unsuccessful. 1 error, 4 warnings
+    Error: Peak virtual memory: 4636 megabytes
+    Error: Processing ended: Wed May 08 21:34:38 2024
+    Error: Elapsed time: 00:00:01
     Error: Total CPU time (on all processors): 00:00:00
 
 

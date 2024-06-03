@@ -1,0 +1,17 @@
+	component unnamed is
+		port (
+			clk        : in  std_logic                     := 'X';             -- clk
+			reset      : in  std_logic                     := 'X';             -- reset
+			address    : in  std_logic                     := 'X';             -- address
+			chipselect : in  std_logic                     := 'X';             -- chipselect
+			byteenable : in  std_logic_vector(3 downto 0)  := (others => 'X'); -- byteenable
+			read       : in  std_logic                     := 'X';             -- read
+			write      : in  std_logic                     := 'X';             -- write
+			writedata  : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			readdata   : out std_logic_vector(31 downto 0);                    -- readdata
+			irq        : out std_logic;                                        -- irq
+			UART_RXD   : in  std_logic                     := 'X';             -- RXD
+			UART_TXD   : out std_logic                                         -- TXD
+		);
+	end component unnamed;
+

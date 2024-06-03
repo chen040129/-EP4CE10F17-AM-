@@ -59,7 +59,7 @@ module AM_mult (
 				.sum (1'b0));
 	defparam
 		lpm_mult_component.lpm_hint = "MAXIMIZE_SPEED=5",
-		lpm_mult_component.lpm_representation = "UNSIGNED",
+		lpm_mult_component.lpm_representation = "SIGNED",
 		lpm_mult_component.lpm_type = "LPM_MULT",
 		lpm_mult_component.lpm_widtha = 8,
 		lpm_mult_component.lpm_widthb = 8,
@@ -75,10 +75,10 @@ endmodule
 // Retrieval info: PRIVATE: B_isConstant NUMERIC "0"
 // Retrieval info: PRIVATE: ConstantB NUMERIC "0"
 // Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone IV E"
-// Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
+// Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "1"
 // Retrieval info: PRIVATE: Latency NUMERIC "0"
 // Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
-// Retrieval info: PRIVATE: SignedMult NUMERIC "0"
+// Retrieval info: PRIVATE: SignedMult NUMERIC "1"
 // Retrieval info: PRIVATE: USE_MULT NUMERIC "1"
 // Retrieval info: PRIVATE: ValidConstant NUMERIC "1"
 // Retrieval info: PRIVATE: WidthA NUMERIC "8"
@@ -90,7 +90,7 @@ endmodule
 // Retrieval info: PRIVATE: optimize NUMERIC "0"
 // Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 // Retrieval info: CONSTANT: LPM_HINT STRING "MAXIMIZE_SPEED=5"
-// Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
+// Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "SIGNED"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_MULT"
 // Retrieval info: CONSTANT: LPM_WIDTHA NUMERIC "8"
 // Retrieval info: CONSTANT: LPM_WIDTHB NUMERIC "8"

@@ -1,5 +1,5 @@
 IP Upgrade report for AM
-Sat May 04 17:47:02 2024
+Mon Jun 03 14:10:57 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
 
 
@@ -34,7 +34,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------+
 ; IP Upgrade Summary                                                             ;
 +------------------------------+-------------------------------------------------+
-; IP Components Upgrade Status ; Failed - Sat May 04 17:47:02 2024               ;
+; IP Components Upgrade Status ; Failed - Mon Jun 03 14:10:57 2024               ;
 ; Quartus Prime Version        ; 18.0.0 Build 614 04/24/2018 SJ Standard Edition ;
 ; Revision Name                ; AM                                              ;
 ; Top-level Entity Name        ; AM                                              ;
@@ -47,9 +47,9 @@ refer to the applicable agreement for further details.
 +---------------------+
 Info (23030): Evaluation of Tcl script e:/intelfpga/18.0/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4857 megabytes
-    Info: Processing ended: Sat May 04 17:47:02 2024
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4858 megabytes
+    Info: Processing ended: Mon Jun 03 14:10:57 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:04
 
 

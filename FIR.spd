@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="FIR_sim/dspba_library_package.vhd" type="VHDL" />
+ <file path="FIR_sim/dspba_library.vhd" type="VHDL" />
+ <file path="FIR_sim/auk_dspip_math_pkg_hpfir.vhd" type="VHDL" />
+ <file path="FIR_sim/auk_dspip_lib_pkg_hpfir.vhd" type="VHDL" />
+ <file
+   path="FIR_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"
+   type="VHDL" />
+ <file path="FIR_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd" type="VHDL" />
+ <file
+   path="FIR_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"
+   type="VHDL" />
+ <file path="FIR_sim/auk_dspip_roundsat_hpfir.vhd" type="VHDL" />
+ <file path="FIR_sim/altera_avalon_sc_fifo.v" type="VERILOG" />
+ <file path="FIR_sim/FIR_rtl_core.vhd" type="VHDL" />
+ <file path="FIR_sim/FIR_ast.vhd" type="VHDL" />
+ <file path="FIR_sim/FIR.vhd" type="VHDL" />
+ <file path="FIR_sim/FIR_nativelink.tcl" type="OTHER" />
+ <file path="FIR_sim/FIR_msim.tcl" type="OTHER" />
+ <file path="FIR_sim/FIR_tb.vhd" type="VHDL" />
+ <file path="FIR_sim/FIR_mlab.m" type="OTHER" />
+ <file path="FIR_sim/FIR_model.m" type="OTHER" />
+ <file path="FIR_sim/FIR_coef_int.txt" type="OTHER" />
+ <file path="FIR_sim/FIR_input.txt" type="OTHER" />
+ <file path="FIR_sim/FIR_param.txt" type="OTHER" />
+ <topLevel name="FIR" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

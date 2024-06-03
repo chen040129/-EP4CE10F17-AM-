@@ -80,7 +80,7 @@ refer to the applicable agreement for further details.
 		(line (pt 176 136)(pt 160 136))
 	)
 	(drawing
-		(text "8 bits x 1024 words" (rect 38 153 195 321)(font "Arial" ))
+		(text "8 bits x 16384 words" (rect 30 153 187 321)(font "Arial" ))
 		(line (pt 16 100)(pt 160 100))
 		(line (pt 16 148)(pt 160 148))
 		(line (pt 16 32)(pt 160 32))

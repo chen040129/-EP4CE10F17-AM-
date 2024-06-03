@@ -154,7 +154,7 @@ endmodule
 // Retrieval info: CONNECT: q 0 0 8 0 @q_a 0 0 8 0
 // Retrieval info: GEN_FILE: TYPE_NORMAL AM_carrier_wave_rom.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL AM_carrier_wave_rom.inc FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL AM_carrier_wave_rom.cmp FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL AM_carrier_wave_rom.cmp TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL AM_carrier_wave_rom.bsf TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL AM_carrier_wave_rom_inst.v FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL AM_carrier_wave_rom_bb.v TRUE

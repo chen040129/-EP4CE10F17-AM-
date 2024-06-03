@@ -40,6 +40,102 @@
 					"strict" : false
 				},
 				{
+					"name" : "AD9226_data_normal[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data_normal[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data_normal[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data_normal[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data_normal[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data_normal[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data_normal[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data_normal[15]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outB[13]",
+					"strict" : false
+				},
+				{
 					"name" : "AM_out[0]",
 					"strict" : false
 				},
@@ -104,39 +200,47 @@
 					"strict" : false
 				},
 				{
-					"name" : "sin_out[0]",
-					"strict" : false
-				},
-				{
-					"name" : "sin_out[1]",
-					"strict" : false
-				},
-				{
-					"name" : "sin_out[2]",
-					"strict" : false
-				},
-				{
-					"name" : "sin_out[3]",
-					"strict" : false
-				},
-				{
-					"name" : "sin_out[4]",
-					"strict" : false
-				},
-				{
-					"name" : "sin_out[5]",
-					"strict" : false
-				},
-				{
-					"name" : "sin_out[6]",
-					"strict" : false
-				},
-				{
-					"name" : "sin_out[7]",
-					"strict" : false
-				},
-				{
 					"name" : "RST_n",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9226_data[8]",
 					"strict" : false
 				},
 				{
@@ -156,19 +260,11 @@
 					"strict" : false
 				},
 				{
+					"name" : "AD9226_data[10]",
+					"strict" : false
+				},
+				{
 					"name" : "AD9226_data[3]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9226_data[2]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9226_data[1]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9226_data[0]",
 					"strict" : false
 				},
 				{

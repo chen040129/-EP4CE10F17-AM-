@@ -1,4 +1,4 @@
 v1
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,AD9226_Normal:comb_61|lpm_mult:lpm_mult_component|mult_scn:auto_generated|mac_out2,
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,AM_mult:comb_62|lpm_mult:lpm_mult_component|mult_scn:auto_generated|mac_out2,
-PORT_SWAPPING,PORT_SWAPPING_FINISHED,AD9226_Normal:comb_61|lpm_mult:lpm_mult_component|mult_scn:auto_generated|mac_mult1,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,AD9226_Normal:comb_167|lpm_mult:lpm_mult_component|mult_80r:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,AM_mult:comb_168|lpm_mult:lpm_mult_component|mult_p5n:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,AD9226_Normal:comb_167|lpm_mult:lpm_mult_component|mult_80r:auto_generated|mac_mult1,
