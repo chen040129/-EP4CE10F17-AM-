@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE10) Path("E:/FPGA_FILE/AM/output_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCQ4A) Child_OpMask(1 1));
+		Device PartName(EP4CE10F17) Path("E:/FPGA_FILE/AM/output_files/") File("AM.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

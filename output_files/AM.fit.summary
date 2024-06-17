@@ -1,16 +1,16 @@
-Fitter Status : Successful - Mon Jun 03 15:58:41 2024
+Fitter Status : Successful - Mon Jun 17 13:59:41 2024
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
 Revision Name : AM
 Top-level Entity Name : AM
 Family : Cyclone IV E
 Device : EP4CE10F17C8
 Timing Models : Final
-Total logic elements : 1,944 / 10,320 ( 19 % )
-    Total combinational functions : 868 / 10,320 ( 8 % )
-    Dedicated logic registers : 1,734 / 10,320 ( 17 % )
-Total registers : 1734
-Total pins : 96 / 180 ( 53 % )
+Total logic elements : 3,919 / 10,320 ( 38 % )
+    Total combinational functions : 1,179 / 10,320 ( 11 % )
+    Dedicated logic registers : 3,669 / 10,320 ( 36 % )
+Total registers : 3669
+Total pins : 104 / 180 ( 58 % )
 Total virtual pins : 0
-Total memory bits : 215,040 / 423,936 ( 51 % )
-Embedded Multiplier 9-bit elements : 2 / 46 ( 4 % )
+Total memory bits : 210,984 / 423,936 ( 50 % )
+Embedded Multiplier 9-bit elements : 20 / 46 ( 43 % )
 Total PLLs : 2 / 2 ( 100 % )

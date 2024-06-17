@@ -72,38 +72,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "DA_9764_outA[6]",
-					"strict" : false
-				},
-				{
-					"name" : "DA_9764_outA[7]",
-					"strict" : false
-				},
-				{
-					"name" : "DA_9764_outA[8]",
-					"strict" : false
-				},
-				{
-					"name" : "DA_9764_outA[9]",
-					"strict" : false
-				},
-				{
-					"name" : "DA_9764_outA[10]",
-					"strict" : false
-				},
-				{
-					"name" : "DA_9764_outA[11]",
-					"strict" : false
-				},
-				{
-					"name" : "DA_9764_outA[12]",
-					"strict" : false
-				},
-				{
-					"name" : "DA_9764_outA[13]",
-					"strict" : false
-				},
-				{
 					"name" : "DA_9764_outB[6]",
 					"strict" : false
 				},
@@ -200,39 +168,39 @@
 					"strict" : false
 				},
 				{
+					"name" : "FIR_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FIR_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FIR_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FIR_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FIR_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FIR_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FIR_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FIR_out[7]",
+					"strict" : false
+				},
+				{
 					"name" : "RST_n",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[0]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[1]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[2]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[3]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[4]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[5]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[6]",
-					"strict" : false
-				},
-				{
-					"name" : "AD9481A_data[7]",
 					"strict" : false
 				},
 				{
@@ -265,6 +233,38 @@
 				},
 				{
 					"name" : "AD9226_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AD9481A_data[7]",
 					"strict" : false
 				},
 				{
