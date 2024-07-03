@@ -20,10 +20,10 @@ module AM(
 	output DA_CLKB,
 	output [15:0] AM_out,
 	output uart_tx,
-	output[7:0] FIR_out
-
+	output[7:0] FIR_out,
+	output[7:0] test_wire
 );
-
+assign test_wire=wave[7:0];
 
 wire [7:0] AD9226_FIFOout_data;
 wire [7:0] AD9481_FIFOout_data;//为FIFO预留的寄存器
@@ -93,16 +93,16 @@ always @(posedge CLK_125M)begin//DA9764输出
 	else
 	begin
 		if(FIR_vaild)begin
-			DA_9764_outB[13:6]<=FIR_out[7:0];
+			DA_9764_outB[13:6]<=~{FIR_out[7],FIR_out[6:0]};
 		end
-		if(AD9481_data_reg[7]==0)
-		begin
-			wave[7:0]<=~{~AM_out[7],AM_out[6:0]};
+		if(AM_out[15]==0)begin
+			wave[7:0]<={AM_out[15],AM_out[14:8]}<<2;
 		end
 		else
 		begin
-			wave[7:0]<={~AM_out[7],AM_out[6:0]};
+			wave[7:0]<=~{AM_out[15],AM_out[14:8]}<<2;
 		end
+			DA_9764_outA[13:0]<=~{~AM_out[15],AM_out[14:2]};
 	end
 end
 

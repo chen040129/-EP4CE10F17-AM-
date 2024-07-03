@@ -72,6 +72,62 @@
 					"strict" : false
 				},
 				{
+					"name" : "DA_9764_outA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DA_9764_outA[13]",
+					"strict" : false
+				},
+				{
 					"name" : "DA_9764_outB[6]",
 					"strict" : false
 				},
@@ -197,6 +253,30 @@
 				},
 				{
 					"name" : "FIR_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "test_wire[2]",
+					"strict" : false
+				},
+				{
+					"name" : "test_wire[3]",
+					"strict" : false
+				},
+				{
+					"name" : "test_wire[4]",
+					"strict" : false
+				},
+				{
+					"name" : "test_wire[5]",
+					"strict" : false
+				},
+				{
+					"name" : "test_wire[6]",
+					"strict" : false
+				},
+				{
+					"name" : "test_wire[7]",
 					"strict" : false
 				},
 				{

@@ -46,11 +46,11 @@ AD9481B_data[4] => ~NO_FANOUT~
 AD9481B_data[5] => ~NO_FANOUT~
 AD9481B_data[6] => ~NO_FANOUT~
 AD9481B_data[7] => ~NO_FANOUT~
-CLK_65M <= PLL_65M:comb_199.c0
+CLK_65M <= PLL_65M:comb_226.c0
 CLK_250M <= CLK_250M.DB_MAX_OUTPUT_PORT_TYPE
 PDN <= PDN~reg0.DB_MAX_OUTPUT_PORT_TYPE
-AD9226_data_normal[0] <= AD9226_Normal:comb_201.result
-AD9226_data_normal[1] <= AD9226_Normal:comb_201.result
+AD9226_data_normal[0] <= AD9226_Normal:comb_228.result
+AD9226_data_normal[1] <= AD9226_Normal:comb_228.result
 AD9226_data_normal[2] <= AD9226_data_normal[2].DB_MAX_OUTPUT_PORT_TYPE
 AD9226_data_normal[3] <= AD9226_data_normal[3].DB_MAX_OUTPUT_PORT_TYPE
 AD9226_data_normal[4] <= AD9226_data_normal[4].DB_MAX_OUTPUT_PORT_TYPE
@@ -58,13 +58,13 @@ AD9226_data_normal[5] <= AD9226_data_normal[5].DB_MAX_OUTPUT_PORT_TYPE
 AD9226_data_normal[6] <= AD9226_data_normal[6].DB_MAX_OUTPUT_PORT_TYPE
 AD9226_data_normal[7] <= AD9226_data_normal[7].DB_MAX_OUTPUT_PORT_TYPE
 AD9226_data_normal[8] <= AD9226_data_normal[8].DB_MAX_OUTPUT_PORT_TYPE
-AD9226_data_normal[9] <= AD9226_Normal:comb_201.result
-AD9226_data_normal[10] <= AD9226_Normal:comb_201.result
-AD9226_data_normal[11] <= AD9226_Normal:comb_201.result
-AD9226_data_normal[12] <= AD9226_Normal:comb_201.result
-AD9226_data_normal[13] <= AD9226_Normal:comb_201.result
-AD9226_data_normal[14] <= AD9226_Normal:comb_201.result
-AD9226_data_normal[15] <= AD9226_Normal:comb_201.result
+AD9226_data_normal[9] <= AD9226_Normal:comb_228.result
+AD9226_data_normal[10] <= AD9226_Normal:comb_228.result
+AD9226_data_normal[11] <= AD9226_Normal:comb_228.result
+AD9226_data_normal[12] <= AD9226_Normal:comb_228.result
+AD9226_data_normal[13] <= AD9226_Normal:comb_228.result
+AD9226_data_normal[14] <= AD9226_Normal:comb_228.result
+AD9226_data_normal[15] <= AD9226_Normal:comb_228.result
 DA_9764_outA[0] <= DA_9764_outA[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 DA_9764_outA[1] <= DA_9764_outA[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 DA_9764_outA[2] <= DA_9764_outA[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -93,24 +93,24 @@ DA_9764_outB[10] <= DA_9764_outB[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 DA_9764_outB[11] <= DA_9764_outB[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 DA_9764_outB[12] <= DA_9764_outB[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 DA_9764_outB[13] <= DA_9764_outB[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-DA_CLKA <= PLL_250M:comb_200.c0
-DA_CLKB <= PLL_250M:comb_200.c0
-AM_out[0] <= AM_mult:comb_202.result
-AM_out[1] <= AM_mult:comb_202.result
-AM_out[2] <= AM_mult:comb_202.result
-AM_out[3] <= AM_mult:comb_202.result
-AM_out[4] <= AM_mult:comb_202.result
-AM_out[5] <= AM_mult:comb_202.result
-AM_out[6] <= AM_mult:comb_202.result
-AM_out[7] <= AM_mult:comb_202.result
-AM_out[8] <= AM_mult:comb_202.result
-AM_out[9] <= AM_mult:comb_202.result
-AM_out[10] <= AM_mult:comb_202.result
-AM_out[11] <= AM_mult:comb_202.result
-AM_out[12] <= AM_mult:comb_202.result
-AM_out[13] <= AM_mult:comb_202.result
-AM_out[14] <= AM_mult:comb_202.result
-AM_out[15] <= AM_mult:comb_202.result
+DA_CLKA <= PLL_250M:comb_227.c0
+DA_CLKB <= PLL_250M:comb_227.c0
+AM_out[0] <= AM_mult:comb_229.result
+AM_out[1] <= AM_mult:comb_229.result
+AM_out[2] <= AM_mult:comb_229.result
+AM_out[3] <= AM_mult:comb_229.result
+AM_out[4] <= AM_mult:comb_229.result
+AM_out[5] <= AM_mult:comb_229.result
+AM_out[6] <= AM_mult:comb_229.result
+AM_out[7] <= AM_mult:comb_229.result
+AM_out[8] <= AM_mult:comb_229.result
+AM_out[9] <= AM_mult:comb_229.result
+AM_out[10] <= AM_mult:comb_229.result
+AM_out[11] <= AM_mult:comb_229.result
+AM_out[12] <= AM_mult:comb_229.result
+AM_out[13] <= AM_mult:comb_229.result
+AM_out[14] <= AM_mult:comb_229.result
+AM_out[15] <= AM_mult:comb_229.result
 uart_tx <= <GND>
 FIR_out[0] <= FIR_to_wave_0002:fir_to_wave_inst.ast_source_data
 FIR_out[1] <= FIR_to_wave_0002:fir_to_wave_inst.ast_source_data
@@ -120,6 +120,14 @@ FIR_out[4] <= FIR_to_wave_0002:fir_to_wave_inst.ast_source_data
 FIR_out[5] <= FIR_to_wave_0002:fir_to_wave_inst.ast_source_data
 FIR_out[6] <= FIR_to_wave_0002:fir_to_wave_inst.ast_source_data
 FIR_out[7] <= FIR_to_wave_0002:fir_to_wave_inst.ast_source_data
+test_wire[0] <= wave[0].DB_MAX_OUTPUT_PORT_TYPE
+test_wire[1] <= wave[1].DB_MAX_OUTPUT_PORT_TYPE
+test_wire[2] <= wave[2].DB_MAX_OUTPUT_PORT_TYPE
+test_wire[3] <= wave[3].DB_MAX_OUTPUT_PORT_TYPE
+test_wire[4] <= wave[4].DB_MAX_OUTPUT_PORT_TYPE
+test_wire[5] <= wave[5].DB_MAX_OUTPUT_PORT_TYPE
+test_wire[6] <= wave[6].DB_MAX_OUTPUT_PORT_TYPE
+test_wire[7] <= wave[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |AM|FIR_to_wave_0002:fir_to_wave_inst
@@ -7713,13 +7721,13 @@ dataout[6] <= datain[25].DB_MAX_OUTPUT_PORT_TYPE
 dataout[7] <= datain[26].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|AM|PLL_65M:comb_199
+|AM|PLL_65M:comb_226
 inclk0 => sub_wire1[0].IN1
 c0 <= altpll:altpll_component.clk
 c1 <= altpll:altpll_component.clk
 
 
-|AM|PLL_65M:comb_199|altpll:altpll_component
+|AM|PLL_65M:comb_226|altpll:altpll_component
 inclk[0] => PLL_65M_altpll2:auto_generated.inclk[0]
 inclk[1] => PLL_65M_altpll2:auto_generated.inclk[1]
 fbin => ~NO_FANOUT~
@@ -7779,7 +7787,7 @@ fref <= <GND>
 icdrclk <= <GND>
 
 
-|AM|PLL_65M:comb_199|altpll:altpll_component|PLL_65M_altpll2:auto_generated
+|AM|PLL_65M:comb_226|altpll:altpll_component|PLL_65M_altpll2:auto_generated
 clk[0] <= pll1.CLK
 clk[1] <= pll1.CLK1
 clk[2] <= pll1.CLK2
@@ -7789,13 +7797,13 @@ inclk[0] => pll1.CLK
 inclk[1] => pll1.CLK1
 
 
-|AM|PLL_250M:comb_200
+|AM|PLL_250M:comb_227
 inclk0 => sub_wire1[0].IN1
 c0 <= altpll:altpll_component.clk
 c1 <= altpll:altpll_component.clk
 
 
-|AM|PLL_250M:comb_200|altpll:altpll_component
+|AM|PLL_250M:comb_227|altpll:altpll_component
 inclk[0] => PLL_250M_altpll2:auto_generated.inclk[0]
 inclk[1] => PLL_250M_altpll2:auto_generated.inclk[1]
 fbin => ~NO_FANOUT~
@@ -7855,7 +7863,7 @@ fref <= <GND>
 icdrclk <= <GND>
 
 
-|AM|PLL_250M:comb_200|altpll:altpll_component|PLL_250M_altpll2:auto_generated
+|AM|PLL_250M:comb_227|altpll:altpll_component|PLL_250M_altpll2:auto_generated
 clk[0] <= pll1.CLK
 clk[1] <= pll1.CLK1
 clk[2] <= pll1.CLK2
@@ -7865,7 +7873,7 @@ inclk[0] => pll1.CLK
 inclk[1] => pll1.CLK1
 
 
-|AM|AD9226_Normal:comb_201
+|AM|AD9226_Normal:comb_228
 dataa[0] => dataa[0].IN1
 dataa[1] => dataa[1].IN1
 dataa[2] => dataa[2].IN1
@@ -7900,7 +7908,7 @@ result[14] <= lpm_mult:lpm_mult_component.result
 result[15] <= lpm_mult:lpm_mult_component.result
 
 
-|AM|AD9226_Normal:comb_201|LPM_MULT:lpm_mult_component
+|AM|AD9226_Normal:comb_228|LPM_MULT:lpm_mult_component
 dataa[0] => mult_80r:auto_generated.dataa[0]
 dataa[1] => mult_80r:auto_generated.dataa[1]
 dataa[2] => mult_80r:auto_generated.dataa[2]
@@ -7940,7 +7948,7 @@ result[14] <= mult_80r:auto_generated.result[14]
 result[15] <= mult_80r:auto_generated.result[15]
 
 
-|AM|AD9226_Normal:comb_201|LPM_MULT:lpm_mult_component|mult_80r:auto_generated
+|AM|AD9226_Normal:comb_228|LPM_MULT:lpm_mult_component|mult_80r:auto_generated
 dataa[0] => mac_mult1.DATAA
 dataa[1] => mac_mult1.DATAA1
 dataa[2] => mac_mult1.DATAA2
@@ -7975,7 +7983,7 @@ result[14] <= mac_out2.DATAOUT14
 result[15] <= mac_out2.DATAOUT15
 
 
-|AM|AM_mult:comb_202
+|AM|AM_mult:comb_229
 dataa[0] => dataa[0].IN1
 dataa[1] => dataa[1].IN1
 dataa[2] => dataa[2].IN1
@@ -8010,7 +8018,7 @@ result[14] <= lpm_mult:lpm_mult_component.result
 result[15] <= lpm_mult:lpm_mult_component.result
 
 
-|AM|AM_mult:comb_202|LPM_MULT:lpm_mult_component
+|AM|AM_mult:comb_229|LPM_MULT:lpm_mult_component
 dataa[0] => mult_p5n:auto_generated.dataa[0]
 dataa[1] => mult_p5n:auto_generated.dataa[1]
 dataa[2] => mult_p5n:auto_generated.dataa[2]
@@ -8050,7 +8058,7 @@ result[14] <= mult_p5n:auto_generated.result[14]
 result[15] <= mult_p5n:auto_generated.result[15]
 
 
-|AM|AM_mult:comb_202|LPM_MULT:lpm_mult_component|mult_p5n:auto_generated
+|AM|AM_mult:comb_229|LPM_MULT:lpm_mult_component|mult_p5n:auto_generated
 dataa[0] => mac_mult1.DATAA
 dataa[1] => mac_mult1.DATAA1
 dataa[2] => mac_mult1.DATAA2

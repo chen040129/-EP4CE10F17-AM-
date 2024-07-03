@@ -72,7 +72,7 @@ VCCIO8                       : A1        : power  :                   : 2.5V    
 CLK_250M                     : A2        : output : 2.5 V             :         : 8         : Y              
 AD9481A_data[7]              : A3        : input  : 2.5 V             :         : 8         : Y              
 AD9481A_data[3]              : A4        : input  : 2.5 V             :         : 8         : Y              
-FIR_out[7]                   : A5        : output : 2.5 V             :         : 8         : N              
+AD9226_data_normal[2]        : A5        : output : 2.5 V             :         : 8         : N              
 AD9481B_data[2]              : A6        : input  : 2.5 V             :         : 8         : Y              
 AD9481B_data[6]              : A7        : input  : 2.5 V             :         : 8         : Y              
 DA_9764_outA[13]             : A8        : output : 2.5 V             :         : 8         : Y              
@@ -84,13 +84,13 @@ DA_9764_outB[8]              : A13       : output : 2.5 V             :         
 DA_9764_outB[4]              : A14       : output : 2.5 V             :         : 7         : Y              
 DA_9764_outB[0]              : A15       : output : 2.5 V             :         : 7         : Y              
 VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B1        :        :                   :         : 1         :                
+AM_out[4]                    : B1        : output : 2.5 V             :         : 1         : N              
 GND                          : B2        : gnd    :                   :         :           :                
 AD9481A_data[5]              : B3        : input  : 2.5 V             :         : 8         : Y              
 AD9481A_data[1]              : B4        : input  : 2.5 V             :         : 8         : Y              
 AD9481B_data[0]              : B5        : input  : 2.5 V             :         : 8         : Y              
 AD9481B_data[4]              : B6        : input  : 2.5 V             :         : 8         : Y              
-FIR_out[3]                   : B7        : output : 2.5 V             :         : 8         : N              
+AM_out[9]                    : B7        : output : 2.5 V             :         : 8         : N              
 DA_9764_outA[11]             : B8        : output : 2.5 V             :         : 8         : Y              
 DA_9764_outA[7]              : B9        : output : 2.5 V             :         : 7         : Y              
 DA_9764_outA[3]              : B10       : output : 2.5 V             :         : 7         : Y              
@@ -101,7 +101,7 @@ DA_9764_outB[2]              : B14       : output : 2.5 V             :         
 GND                          : B15       : gnd    :                   :         :           :                
 AD9226_data[10]              : B16       : input  : 2.5 V             :         : 6         : Y              
 ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C1        : input  : 2.5 V             :         : 1         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
+AM_out[5]                    : C2        : output : 2.5 V             :         : 1         : N              
 PDN                          : C3        : output : 2.5 V             :         : 8         : Y              
 VCCIO8                       : C4        : power  :                   : 2.5V    : 8         :                
 GND                          : C5        : gnd    :                   :         :           :                
@@ -116,14 +116,14 @@ VCCIO7                       : C13       : power  :                   : 2.5V    
 DA_9764_outB[5]              : C14       : output : 2.5 V             :         : 7         : Y              
 AD9226_data[6]               : C15       : input  : 2.5 V             :         : 6         : Y              
 AD9226_data[8]               : C16       : input  : 2.5 V             :         : 6         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : D1        :        :                   :         : 1         :                
+AM_out[0]                    : D1        : output : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1         :                
 AD9481A_data[2]              : D3        : input  : 2.5 V             :         : 8         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D4        :        :                   :         : 1         :                
 AD9481B_data[1]              : D5        : input  : 2.5 V             :         : 8         : Y              
 AD9481B_data[3]              : D6        : input  : 2.5 V             :         : 8         : Y              
 GND                          : D7        : gnd    :                   :         :           :                
-FIR_out[2]                   : D8        : output : 2.5 V             :         : 8         : N              
+AM_out[6]                    : D8        : output : 2.5 V             :         : 8         : N              
 DA_9764_outA[6]              : D9        : output : 2.5 V             :         : 7         : Y              
 GND                          : D10       : gnd    :                   :         :           :                
 DA_9764_outA[0]              : D11       : output : 2.5 V             :         : 7         : Y              
@@ -137,7 +137,7 @@ GND                          : E2        : gnd    :                   :         
 VCCIO1                       : E3        : power  :                   : 2.5V    : 1         :                
 GND                          : E4        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 1         :                
-FIR_out[6]                   : E6        : output : 2.5 V             :         : 8         : N              
+AM_out[3]                    : E6        : output : 2.5 V             :         : 8         : N              
 AD9481B_data[7]              : E7        : input  : 2.5 V             :         : 8         : Y              
 AD9481A_data[0]              : E8        : input  : 2.5 V             :         : 8         : Y              
 DA_9764_outA[8]              : E9        : output : 2.5 V             :         : 7         : Y              
@@ -148,9 +148,9 @@ GND                          : E13       : gnd    :                   :         
 VCCIO6                       : E14       : power  :                   : 2.5V    : 6         :                
 GND+                         : E15       :        :                   :         : 6         :                
 RST_n                        : E16       : input  : 2.5 V             :         : 6         : Y              
-FIR_out[5]                   : F1        : output : 2.5 V             :         : 1         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F3        :        :                   :         : 1         :                
+AD9226_data_normal[8]        : F1        : output : 2.5 V             :         : 1         : N              
+AD9226_data_normal[6]        : F2        : output : 2.5 V             :         : 1         : N              
+AD9226_data_normal[15]       : F3        : output : 2.5 V             :         : 1         : N              
 nSTATUS                      : F4        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F5        :        :                   :         : 1         :                
 AD9481A_data[4]              : F6        : input  : 2.5 V             :         : 8         : Y              
@@ -164,11 +164,11 @@ AD9226_data[4]               : F13       : input  : 2.5 V             :         
 AD9226_data[2]               : F14       : input  : 2.5 V             :         : 6         : Y              
 AD9226_data[9]               : F15       : input  : 2.5 V             :         : 6         : Y              
 AD9226_data[7]               : F16       : input  : 2.5 V             :         : 6         : Y              
-FIR_out[1]                   : G1        : output : 2.5 V             :         : 1         : N              
-FIR_out[0]                   : G2        : output : 2.5 V             :         : 1         : N              
+AD9226_data_normal[7]        : G1        : output : 2.5 V             :         : 1         : N              
+AD9226_data_normal[5]        : G2        : output : 2.5 V             :         : 1         : N              
 VCCIO1                       : G3        : power  :                   : 2.5V    : 1         :                
 GND                          : G4        : gnd    :                   :         :           :                
-FIR_out[4]                   : G5        : output : 2.5 V             :         : 1         : N              
+AM_out[11]                   : G5        : output : 2.5 V             :         : 1         : N              
 VCCINT                       : G6        : power  :                   : 1.2V    :           :                
 VCCINT                       : G7        : power  :                   : 1.2V    :           :                
 VCCINT                       : G8        : power  :                   : 1.2V    :           :                
@@ -179,7 +179,7 @@ MSEL2                        : G12       :        :                   :         
 GND                          : G13       : gnd    :                   :         :           :                
 VCCIO6                       : G14       : power  :                   : 2.5V    : 6         :                
 AD9226_data[5]               : G15       : input  : 2.5 V             :         : 6         : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : G16       :        :                   :         : 6         :                
+AM_out[2]                    : G16       : output : 2.5 V             :         : 6         : N              
 ~ALTERA_DCLK~                : H1        : output : 2.5 V             :         : 1         : N              
 ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : H2        : input  : 2.5 V             :         : 1         : N              
 altera_reserved_tck          : H3        : input  : 2.5 V             :         : 1         : N              
@@ -196,20 +196,20 @@ MSEL0                        : H13       :        :                   :         
 CONF_DONE                    : H14       :        :                   :         : 6         :                
 GND                          : H15       : gnd    :                   :         :           :                
 GND                          : H16       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J1        :        :                   :         : 2         :                
+AD9226_data_normal[1]        : J1        : output : 2.5 V             :         : 2         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J2        :        :                   :         : 2         :                
 nCE                          : J3        :        :                   :         : 1         :                
 altera_reserved_tdo          : J4        : output : 2.5 V             :         : 1         : N              
 altera_reserved_tms          : J5        : input  : 2.5 V             :         : 1         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : J6        :        :                   :         : 2         :                
+AD9226_data_normal[4]        : J6        : output : 2.5 V             :         : 2         : N              
 GND                          : J7        : gnd    :                   :         :           :                
 GND                          : J8        : gnd    :                   :         :           :                
 GND                          : J9        : gnd    :                   :         :           :                
 GND                          : J10       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J11       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J12       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J13       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J14       :        :                   :         : 5         :                
+AD9226_data_normal[12]       : J11       : output : 2.5 V             :         : 5         : N              
+FIR_out[5]                   : J12       : output : 2.5 V             :         : 5         : N              
+AM_out[7]                    : J13       : output : 2.5 V             :         : 5         : N              
+AM_out[10]                   : J14       : output : 2.5 V             :         : 5         : N              
 AD9226_data[3]               : J15       : input  : 2.5 V             :         : 5         : Y              
 AD9226_data[1]               : J16       : input  : 2.5 V             :         : 5         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : K1        :        :                   :         : 2         :                
@@ -219,31 +219,31 @@ GND                          : K4        : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : K5        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K6        :        :                   :         : 2         :                
 VCCINT                       : K7        : power  :                   : 1.2V    :           :                
-AD9226_data_normal[8]        : K8        : output : 2.5 V             :         : 3         : N              
-AD9226_data_normal[1]        : K9        : output : 2.5 V             :         : 4         : N              
-AD9226_data_normal[2]        : K10       : output : 2.5 V             :         : 4         : N              
-AM_out[4]                    : K11       : output : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : K12       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K8        :        :                   :         : 3         :                
+AM_out[15]                   : K9        : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K10       :        :                   :         : 4         :                
+test_wire[7]                 : K11       : output : 2.5 V             :         : 5         : N              
+uart_tx                      : K12       : output : 2.5 V             :         : 5         : N              
 GND                          : K13       : gnd    :                   :         :           :                
 VCCIO5                       : K14       : power  :                   : 2.5V    : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K15       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K16       :        :                   :         : 5         :                
+AM_out[14]                   : K15       : output : 2.5 V             :         : 5         : N              
+FIR_out[6]                   : K16       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : L1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : L2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : L3        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : L4        :        :                   :         : 2         :                
 VCCA1                        : L5        : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : L6        :        :                   :         : 2         :                
-AM_out[7]                    : L7        : output : 2.5 V             :         : 3         : N              
-AD9226_data_normal[14]       : L8        : output : 2.5 V             :         : 3         : N              
-AD9226_data_normal[15]       : L9        : output : 2.5 V             :         : 4         : N              
-AM_out[5]                    : L10       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L8        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L9        :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L10       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : L11       :        :                   :         : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L12       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L13       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L14       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L15       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L16       :        :                   :         : 5         :                
+test_wire[6]                 : L12       : output : 2.5 V             :         : 5         : N              
+FIR_out[0]                   : L13       : output : 2.5 V             :         : 5         : N              
+FIR_out[4]                   : L14       : output : 2.5 V             :         : 5         : N              
+AM_out[13]                   : L15       : output : 2.5 V             :         : 5         : N              
+test_wire[3]                 : L16       : output : 2.5 V             :         : 5         : N              
 GND+                         : M1        :        :                   :         : 2         :                
 GND+                         : M2        :        :                   :         : 2         :                
 VCCIO2                       : M3        : power  :                   : 2.5V    : 2         :                
@@ -251,9 +251,9 @@ GND                          : M4        : gnd    :                   :         
 GNDA1                        : M5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 3         :                
-AM_out[15]                   : M8        : output : 2.5 V             :         : 3         : N              
-AD9226_data_normal[11]       : M9        : output : 2.5 V             :         : 4         : N              
-AD9226_data_normal[0]        : M10       : output : 2.5 V             :         : 4         : N              
+AD9226_data_normal[13]       : M8        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M9        :        :                   :         : 4         :                
+AM_out[8]                    : M10       : output : 2.5 V             :         : 4         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M11       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M12       :        :                   :         : 5         :                
 GND                          : M13       : gnd    :                   :         :           :                
@@ -267,60 +267,60 @@ VCCD_PLL1                    : N4        : power  :                   : 1.2V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : N5        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N6        :        :                   :         : 3         :                
 GND                          : N7        : gnd    :                   :         :           :                
-AD9226_data_normal[7]        : N8        : output : 2.5 V             :         : 3         : N              
-AM_out[14]                   : N9        : output : 2.5 V             :         : 4         : N              
+AD9226_data_normal[3]        : N8        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N9        :        :                   :         : 4         :                
 GND                          : N10       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N11       :        :                   :         : 4         :                
-AM_out[2]                    : N12       : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : N13       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N14       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N15       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N16       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N12       :        :                   :         : 4         :                
+AD9226_data_normal[0]        : N13       : output : 2.5 V             :         : 5         : N              
+FIR_out[1]                   : N14       : output : 2.5 V             :         : 5         : N              
+test_wire[4]                 : N15       : output : 2.5 V             :         : 5         : N              
+FIR_out[7]                   : N16       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P1        :        :                   :         : 2         :                
-AM_out[8]                    : P2        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 3         :                
 VCCIO3                       : P4        : power  :                   : 2.5V    : 3         :                
 GND                          : P5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P6        :        :                   :         : 3         :                
 VCCIO3                       : P7        : power  :                   : 2.5V    : 3         :                
-AD9226_data_normal[6]        : P8        : output : 2.5 V             :         : 3         : N              
-AD9226_data_normal[4]        : P9        : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P8        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P9        :        :                   :         : 4         :                
 VCCIO4                       : P10       : power  :                   : 2.5V    : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P11       :        :                   :         : 4         :                
+AD9226_data_normal[10]       : P11       : output : 2.5 V             :         : 4         : N              
 GND                          : P12       : gnd    :                   :         :           :                
 VCCIO4                       : P13       : power  :                   : 2.5V    : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P14       :        :                   :         : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P15       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P16       :        :                   :         : 5         :                
+test_wire[1]                 : P14       : output : 2.5 V             :         : 4         : N              
+FIR_out[2]                   : P15       : output : 2.5 V             :         : 5         : N              
+test_wire[2]                 : P16       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R1        :        :                   :         : 2         :                
 GND                          : R2        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R3        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R4        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R5        :        :                   :         : 3         :                
-AM_out[9]                    : R6        : output : 2.5 V             :         : 3         : N              
-AM_out[10]                   : R7        : output : 2.5 V             :         : 3         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : R8        :        :                   :         : 3         :                
-AM_out[12]                   : R9        : output : 2.5 V             :         : 4         : N              
-AD9226_data_normal[10]       : R10       : output : 2.5 V             :         : 4         : N              
-AM_out[0]                    : R11       : output : 2.5 V             :         : 4         : N              
-AM_out[3]                    : R12       : output : 2.5 V             :         : 4         : N              
-AM_out[6]                    : R13       : output : 2.5 V             :         : 4         : N              
+AD9226_data_normal[9]        : R5        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R7        :        :                   :         : 3         :                
+AM_out[12]                   : R8        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R9        :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R10       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R11       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R12       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R13       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :         : 4         :                
 GND                          : R15       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R16       :        :                   :         : 5         :                
+test_wire[5]                 : R16       : output : 2.5 V             :         : 5         : N              
 VCCIO3                       : T1        : power  :                   : 2.5V    : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T2        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T4        :        :                   :         : 3         :                
-uart_tx                      : T5        : output : 2.5 V             :         : 3         : N              
-AD9226_data_normal[9]        : T6        : output : 2.5 V             :         : 3         : N              
-AD9226_data_normal[13]       : T7        : output : 2.5 V             :         : 3         : N              
-AM_out[13]                   : T8        : output : 2.5 V             :         : 3         : N              
-AM_out[11]                   : T9        : output : 2.5 V             :         : 4         : N              
-AD9226_data_normal[12]       : T10       : output : 2.5 V             :         : 4         : N              
-AM_out[1]                    : T11       : output : 2.5 V             :         : 4         : N              
-AD9226_data_normal[3]        : T12       : output : 2.5 V             :         : 4         : N              
-AD9226_data_normal[5]        : T13       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T5        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T6        :        :                   :         : 3         :                
+AD9226_data_normal[14]       : T7        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T8        :        :                   :         : 3         :                
+AM_out[1]                    : T9        : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T10       :        :                   :         : 4         :                
+AD9226_data_normal[11]       : T11       : output : 2.5 V             :         : 4         : N              
+FIR_out[3]                   : T12       : output : 2.5 V             :         : 4         : N              
+test_wire[0]                 : T13       : output : 2.5 V             :         : 4         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : T14       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T15       :        :                   :         : 4         :                
 VCCIO4                       : T16       : power  :                   : 2.5V    : 4         :                

@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.0 614 win32 2024.06.04.21:40:02
+# ACDS 18.0 614 win32 2024.07.03.21:36:54
 
 # ----------------------------------------
 # vcsmx - auto-generated simulation script
@@ -107,7 +107,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.0 614 win32 2024.06.04.21:40:02
+# ACDS 18.0 614 win32 2024.07.03.21:36:54
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="FIR_to_wave"
