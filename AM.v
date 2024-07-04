@@ -96,11 +96,11 @@ always @(posedge CLK_125M)begin//DA9764输出
 			DA_9764_outB[13:6]<=~{FIR_out[7],FIR_out[6:0]};
 		end
 		if(AM_out[15]==0)begin
-			wave[7:0]<={AM_out[15],AM_out[14:8]}<<2;
+			wave[7:0]<={~AM_out[15],AM_out[14:8]}<<2;
 		end
 		else
 		begin
-			wave[7:0]<=~{AM_out[15],AM_out[14:8]}<<2;
+			wave[7:0]<=~{~AM_out[15],AM_out[14:8]}<<2;
 		end
 			DA_9764_outA[13:0]<=~{~AM_out[15],AM_out[14:2]};
 	end
